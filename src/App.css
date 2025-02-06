@@ -1,0 +1,27 @@
+@import "tailwindcss";
+*{
+
+  font-family: "Work Sans", Verdana, sans-serif;
+
+}
+body{
+ 
+}
+@layer utilities {
+  .font-syncopate {
+    font-family: 'Syncopate', sans-serif !important;
+  }
+  .font-Verdana{
+    font-family: "Work Sans", Verdana
+  }
+}
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
